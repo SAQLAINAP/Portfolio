@@ -1,0 +1,37 @@
+#skill:hover {
+    transform: translateY(3px);
+    box-shadow: 0 0 10px rgba(252, 53, 53, 0.8);   
+}
+
+#hack:hover {
+    transform: translateY(3px);
+    box-shadow: 5px 8px 10px rgba(26, 116, 252, 0.8);   
+}
+
+#fill {
+     /* gradient color background with slight opacity*/
+    background: linear-gradient(45deg, rgba(252, 53, 53, 0.8), rgba(26, 116, 252, 0.8));
+    text-align: center;
+    border-radius: 4%;
+    color: rgb(255, 255, 255);
+}
+
+/* apply the same style to the form button too */
+#fill-button
+{
+    background: linear-gradient(45deg, rgba(252, 53, 53, 0.8), rgba(26, 116, 252, 0.8));
+    text-align: center;
+    border-radius: 4%;
+    color: rgb(255, 255, 255);
+}
+
+.social-link{
+    color: #141212;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.social-link:hover{
+    color: #ff0000;
+    transform: scale(1.5);
+}
