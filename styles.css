@@ -8,12 +8,23 @@
     box-shadow: 5px 8px 10px rgba(26, 116, 252, 0.8);   
 }
 
-#fill {
-     /* gradient color background with slight opacity*/
-    background: linear-gradient(45deg, rgba(252, 53, 53, 0.8), rgba(26, 116, 252, 0.8));
+#Hero h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #fff;
     text-align: center;
-    border-radius: 4%;
-    color: rgb(8, 8, 8);
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+#Hero p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 1rem;
+    background: linear-gradient(45deg, rgba(252, 53, 53, 0.8), rgba(26, 116, 252, 0.8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* apply the same style to the form button too */
@@ -112,3 +123,221 @@ body.dark{
 body.dark h1,body.dark.support a{
     color: #fff;
 }
+
+
+#Boxes:hover{
+    transform: scale(1.1);
+    box-shadow: 0 3px 10px rgb(124, 1, 1);
+    background-color: rgba(201, 245, 6, 0.623);
+    color: rgb(18, 6, 75);
+}
+    
+#taskbuttons a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 3px 10px rgb(124, 1, 1);
+    background-color: rgba(201, 245, 6, 0.623);
+    color: rgb(18, 6, 75);
+}
+
+/* #featured-image{
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+} */
+
+
+/* add mobile friendly css code below */
+@media screen and (max-width: 600px) 
+{
+
+    #Hero h2 {
+        font-size: 4rem;
+        font-weight: 200;
+        color: #fff;
+        text-align: center;
+        margin-top: 0.1rem;
+        margin-bottom: 0.5rem;
+        text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff;
+    }
+    
+    #Hero p {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 1rem;
+        background: linear-gradient(45deg, rgba(252, 53, 53, 0.8), rgba(26, 116, 252, 0.8));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+
+    #face{
+        width: 20%;
+    }
+    #fill{
+        width: 100%;
+    }
+    #fill-button{
+        width: 100%;
+    }
+    #Boxes{
+        width: 100%;
+    }
+    #taskbuttons{
+        width: 100%;
+    }
+    #blogs{
+        width: 100%;
+    }
+    #foot{
+        width: 100%;
+    }
+    #skill{
+        width: 100%;
+    }
+    #hack{
+        width: 100%;
+    }
+    #Boxes{
+        width: 100%;
+    }
+    #taskbuttons{
+        width: 100%;
+    }
+    #blogs{
+        width: 100%;
+    }
+    #foot{
+        width: 100%;
+    }
+    #skill{
+        width: 100%;
+    }
+    #hack{
+        width: 100%;
+    }
+    #Boxes{
+        width: 100%;
+    }
+    #taskbuttons{
+        width: 100%;
+    }
+    #blogs{
+        width: 100%;
+    }
+    #foot{
+        width: 100%;
+    }
+    #skill{
+        width: 100%;
+    }
+    #hack{
+        width: 100%;
+    }
+    #Boxes{
+        width: 100%;
+    }
+    #taskbuttons{
+        width: 100%;
+    }
+    #blogs{
+        width: 100%;
+    }
+    #foot{
+        width: 100%;
+    }
+    #skill{
+        width: 100%;
+    }
+    #hack{
+        width: 100%;
+    }
+    #Boxes{
+        width: 100%;
+    }
+    #taskbuttons{
+        width: 100%;
+    }
+    #blogs{
+        width: 100%;
+    }
+    #foot{
+        width: 100%;
+    }
+    #skill{
+        width: 100%;
+    }
+    #hack{
+        width: 100%;
+    }
+    #Boxes{
+        width: 100%;
+    }
+    #taskbuttons{
+        width: 100%;
+    }
+    #blogs{
+        width: 100%;
+    }
+    #foot{
+        width: 100%;
+    }
+    #skill{
+        width: 100%;
+    }
+    #hack{
+        width: 100%;
+    }
+    #Boxes{
+        width: 100%;
+    }
+    #taskbuttons{
+        width: 100%;
+}
+}
+
+/* add css code below for range 1024px to 1280px*/
+@media screen and (min-width: 1024px) and (max-width: 1280px) 
+{
+    #Hero h2 {
+        font-size: 4rem;
+        font-weight: 300;
+    }
+
+        #Hero p {
+            font-size: 3rem;
+            width: 100%;
+            height: calc(50vh - 10px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* padding: 0.5rem; */
+            margin-bottom: 10px;
+        }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1280px)
+{
+    #Hero h2 {
+        font-size: 4rem;
+        font-weight: 200;
+        color: #fff;
+        text-align: center;
+        margin-top: 0.1rem;
+        margin-bottom: 0.5rem;
+        /* text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff; */
+    }
+    
+    #Hero p {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 4.75vh;
+        text-align: center;
+        margin: auto;
+        /* margin-top: 1rem; */
+        background: linear-gradient(45deg, rgba(252, 53, 53, 0.8), rgba(26, 116, 252, 0.8));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+} 
