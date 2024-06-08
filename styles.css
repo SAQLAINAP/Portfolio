@@ -8,6 +8,18 @@
     box-shadow: 5px 8px 10px rgba(26, 116, 252, 0.8);   
 }
 
+body {
+    /* light mode styles */
+    background-color: white;
+    color: black;
+}
+  
+body.dark-mode {
+    /* dark mode styles */
+    background-color: black;
+    color: white;
+}
+
 #Hero h2 {
     font-size: 5rem;
     font-weight: 700;
@@ -26,6 +38,12 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+#Hero {
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.8), rgba(0, 255, 0, 0.8));
+    border-radius: 4%;
+}
+
 
 /* apply the same style to the form button too */
 #fill-button
@@ -148,7 +166,7 @@ body.dark h1,body.dark.support a{
 
 
 /* add mobile friendly css code below */
-@media screen and (max-width: 600px) 
+@media screen and (min-width: 100px) and (max-width: 600px) 
 {
 
     #Hero h2 {

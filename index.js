@@ -24,3 +24,8 @@ function smoothScrollAnimation(startTime) {
 
 // Start the smooth scroll animation
 requestAnimationFrame(smoothScrollAnimation.bind(null, Date.now()));
+
+function toggleMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+  }
